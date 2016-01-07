@@ -25,7 +25,8 @@ a:hover {
 .menu-section {
   border: 1px solid #2c3e50;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .menu-section h4 {
@@ -44,12 +45,21 @@ a:hover {
 }
 
 .menu-section ul li {
-  padding: 10px;
   border-bottom: 1px solid #eee;
 }
 
 .menu-section ul li:last-child {
   border-bottom: none;
+}
+
+.menu-section ul li:hover {
+  background: #ecf0f1;
+}
+
+.menu-section a {
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
 }
 
 .main-content h2 {
@@ -68,6 +78,15 @@ a:hover {
   float: right;
 }
 
+.edit-btn {
+  float: right;
+  margin-right: 10px;
+}
+
+.player-btn form {
+  display: inline;
+}
+
 .player-table td {
   vertical-align: middle !important;
 }
@@ -80,11 +99,18 @@ a:hover {
   display: none;
 }
 
+table td {
+  vertical-align: middle !important;
+}
+
 @media only screen and (max-width: 768px) {
   .mobile-menu {
     display: block;
   }
   .main-nav {
+    display: none;
+  }
+  .team-index-table .player-list {
     display: none;
   }
 }

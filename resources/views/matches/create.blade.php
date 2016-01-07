@@ -33,19 +33,19 @@
 		<div class="col-sm-4">
 			<div class="form-group">
 				<label class="control-label" for="date">Date</label>
-				<input type="game_date" class="form-control" id="date">
+				<input type="text" class="form-control" id="date" name="game_date">
 			</div>
 		</div>
 		<div class="col-sm-4">
 			<div class="form-group">
 				<label class="control-label" for="cups_left">Cups Left</label>
-				<input type="cups_left" class="form-control" id="inputDefault" name="cups_left" placeholder="Cups Left">
+				<input type="text" class="form-control" id="inputDefault" name="cups_left" placeholder="Cups Left">
 			</div>
 		</div>
 		<div class="col-sm-4">
 			<div class="form-group">
 				<label class="control-label" for="overtime">Overtime</label>
-				<input type="overtime" class="form-control" id="inputDefault" name="overtime" placeholder="Overtime">
+				<input type="text" class="form-control" id="inputDefault" name="overtime" placeholder="Overtime">
 			</div>
 		</div>
 	</div>

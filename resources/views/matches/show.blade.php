@@ -40,4 +40,14 @@
 	</div>
 </div>
 
+
+						<form class="right" action="{{url('matches', $match->id)}}" method="POST">
+							{!! csrf_field() !!}
+							{!! method_field('DELETE') !!}
+
+							<button type="submit" class="btn btn-danger btn-sm delete-btn" value="">
+								Delete
+							</button>
+						</form>
+
 @stop

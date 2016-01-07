@@ -75,6 +75,7 @@ class TeamController extends Controller
         // This method finds the player by id. so the url would be players/1
         // If an id of 1 doesn't exist laravel will throw an exception
         $team = Team::findOrFail($id);
+        $matches = Match::table('matches')->get();
 
         // This passes the data to the view. The compact function is shorthand for an array.
         // In the view you would use $player to access all the columns
