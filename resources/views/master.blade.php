@@ -25,7 +25,7 @@
           <div class="col-md-6">
             <img src="{{ URL::asset('img/logo.png') }}" class="pull-left" />
           </div>
-          <div class="pull-right quote-otd">
+          <div class="pull-right quote-otd col-md-6">
             <div class="well well-sm">
               <script type="text/javascript" src="http://www.brainyquote.com/link/quotefu.js"></script>
             </div>
