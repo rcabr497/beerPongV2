@@ -56,6 +56,10 @@ a:hover {
   background: #ecf0f1;
 }
 
+.menu-section ul li a:hover {
+  text-decoration: none;
+}
+
 .menu-section a {
   padding: 10px;
   width: 100%;
@@ -111,6 +115,30 @@ table td {
     display: none;
   }
   .team-index-table .player-list {
+    display: none;
+  }
+  .player-table .player-hometown, .player-table .player-height, .player-table .player-age {
+    display: none;
+  }
+  .player-table tr td:nth-child(2) {
+    display: none;
+  }
+  .player-table tr td:nth-child(3) {
+    display: none;
+  }
+  .player-table tr td:nth-child(4) {
+    display: none;
+  }
+  .matches-table th:nth-child(4) {
+    display: none;
+  }
+  .matches-table tr td:nth-child(4) {
+    display: none;
+  }
+  .matches-table th:nth-child(3) {
+    display: none;
+  }
+  .matches-table tr td:nth-child(3) {
     display: none;
   }
 }

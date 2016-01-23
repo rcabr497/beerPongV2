@@ -4,7 +4,7 @@
 
 <h1 class="page-title">All Matches</h1>
 
-<table class="table table-striped table-hover ">
+<table class="table table-striped table-hover matches-table">
 	<thead>
    		<tr>
 	    	<th>Winning Team</th>

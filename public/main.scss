@@ -54,6 +54,10 @@ a {
 			&:hover {
 				background:#ecf0f1;
 			}
+
+			a:hover {
+				text-decoration: none;
+			}
 		}
 	}
 
@@ -124,6 +128,48 @@ table td {
 	.team-index-table {
 		.player-list {
 			display: none;
+		}
+	}
+
+	.player-table {
+		.player-hometown, .player-height, .player-age {
+			display: none;
+		}
+
+		tr {
+			td:nth-child(2) {
+				display: none;
+			}
+
+			td:nth-child(3) {
+				display: none;
+			}
+
+			td:nth-child(4) {
+				display: none;
+			}
+
+		}
+	}
+
+	.matches-table {
+
+		th:nth-child(4) {
+			display: none;
+		}
+		tr {
+			td:nth-child(4) {
+				display: none;
+			}
+		}
+
+		th:nth-child(3) {
+			display: none;
+		}
+		tr {
+			td:nth-child(3) {
+				display: none;
+			}
 		}
 	}
 }
