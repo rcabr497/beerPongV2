@@ -2,6 +2,7 @@
 
 @section('content')
 
+<h1>Everything else is working fine. still not done with the dashboard.</h1>
 <div class="row">
   <div class="col-md-8">
     <h2>5 latest Games<a href="#" class="btn btn-danger pull-right btn-sm">View All Games</a></h2>
