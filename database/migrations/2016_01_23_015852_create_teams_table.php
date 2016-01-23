@@ -17,7 +17,6 @@ class CreateTeamsTable extends Migration
             $table->string('name', 60);
             $table->string('player1', 60);
             $table->string('player2', 60)->nullable();
-            $table->dateTime('created_at');
 
             $table->timestamps();
         });
