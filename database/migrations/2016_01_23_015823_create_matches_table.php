@@ -20,6 +20,7 @@ class CreateMatchesTable extends Migration
             $table->integer('cups_left');
             $table->integer('overtime');
             $table->text('comments');
+            $table->dateTime('created_at');
 
             $table->timestamps();
         });
