@@ -12,7 +12,7 @@ class CreateTeamsTable extends Migration
      */
     public function up()
     {
-        Schema::create('matches', function (Blueprint $table) {
+        Schema::create('teams', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 60);
             $table->string('player1', 60);
@@ -30,6 +30,6 @@ class CreateTeamsTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('teams');
     }
 }
