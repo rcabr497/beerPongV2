@@ -23,7 +23,7 @@
       <div class="container logo">
         <div class="row">
           <div class="col-md-6">
-            <img src="{{ URL::asset('img/logo.png') }}" class="pull-left" />
+            <a href="/"><img src="{{ URL::asset('img/logo.png') }}" class="pull-left" /></a>
           </div>
           <div class="pull-right quote-otd col-md-6">
             <div class="well well-sm">
@@ -46,7 +46,7 @@
         </div>
       </div>
     	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="{{ URL::asset('js/materialize.min.js') }}"></script>
+      <script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
       <script type="text/javascript" src="{{ URL::asset('js/jquery.sticky.js') }}"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">

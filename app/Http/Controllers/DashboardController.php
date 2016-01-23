@@ -22,7 +22,7 @@ class DashboardController extends Controller
     {
         // This gets all rows and all columns from the players table.
         // If you want to change this. You can select specific columns by passing an array of the column names in all()
-        $teams = Team::table('teams')->get();
+        $teams = Team::orderBy('name', 'asc')->get();
 
 
         return view('dashboard', compact('teams'));

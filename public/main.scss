@@ -117,6 +117,13 @@ table td {
 }
 
 @media only screen and (max-width: 768px) {
+
+	.logo img {
+		max-width: 80%;
+		margin-left: 10%;
+		margin-bottom: 20px;
+	}
+
 	.mobile-menu {
 		display: block;
 	}
